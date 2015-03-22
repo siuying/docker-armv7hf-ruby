@@ -17,7 +17,7 @@ RUN apt-get update \
 	&& ./configure --disable-install-doc \
 	&& make -j"$(nproc)" \
 	&& make install \
-	&& apt-get purge -y --auto-remove bison libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev ruby curl autoconf build-essential bzip2 \
+	&& apt-get purge -y --auto-remove bison ruby curl autoconf build-essential bzip2 \
 	&& rm -r /usr/src/ruby
 
 # skip installing gem documentation
