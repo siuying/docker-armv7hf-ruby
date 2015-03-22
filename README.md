@@ -11,5 +11,5 @@ Based on [dockerfile/ruby](https://github.com/dockerfile/ruby).
 Run ``irb``
 
 ``
-docker run -it --rm siuying/armv7-ruby irb
+docker run -it --rm siuying/armv7hf-ruby irb
 ``
