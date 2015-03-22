@@ -1,4 +1,4 @@
-# Ruby base image for armv7+ (Raspberry Pi Model 2)
+# Ruby base image for armv7+
 
 Based on [dockerfile/ruby](https://github.com/dockerfile/ruby).
 
@@ -11,5 +11,5 @@ Based on [dockerfile/ruby](https://github.com/dockerfile/ruby).
 Run ``irb``
 
 ``
-docker run -it --rm siuying/raspbian-ruby irb
+docker run -it --rm siuying/armv7-ruby irb
 ``
