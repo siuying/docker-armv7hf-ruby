@@ -1,5 +1,4 @@
-## Base image to use
-FROM resin/rpi-raspbian:jessie-2015-02-08
+FROM resin/rpi-raspbian
 
 ENV RUBY_MAJOR 2.2
 ENV RUBY_VERSION 2.2.1
