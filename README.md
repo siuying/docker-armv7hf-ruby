@@ -1,10 +1,10 @@
-# Ruby base image for Raspberry Pi
+# Ruby base image for armv7+ (Raspberry Pi Model 2)
 
 Based on [dockerfile/ruby](https://github.com/dockerfile/ruby).
 
 ## Base Docker Image
 
-- [resin/rpi-raspbian](https://registry.hub.docker.com/u/resin/rpi-raspbian/)
+- [mazzolino/armhf-ubuntu](https://github.com/djmaze/armhf-ubuntu-docker)
 
 ## Usage
 

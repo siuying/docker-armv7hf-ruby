@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM mazzolino/armhf-ubuntu:14.04
 
 ENV RUBY_MAJOR 2.2
 ENV RUBY_VERSION 2.2.1
